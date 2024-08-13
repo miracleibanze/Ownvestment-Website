@@ -90,6 +90,7 @@ header{
     width: 70%;
     font-size: 6rem;
     font-weight: lighter;
+    height: 60vh;
 }
 .header-title span{
     font-size: 1.1rem;

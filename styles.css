@@ -147,7 +147,7 @@ header{
     color: #ffffffc0;
 }
 .header-bottom-part div:has(button){
-    width: calc(80vw /3);
+    width: 23vw;
     display: flex;
     align-items: center;
     justify-content: end;

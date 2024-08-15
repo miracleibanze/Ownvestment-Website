@@ -317,7 +317,7 @@ section.steps{
     position: absolute;
     width: calc(((100vw - 5rem)/3)*2);
     height: 30rem;
-    background: linear-gradient(to right,#ffffff0a, #ffffff6e,#fffffff9);
+    background: linear-gradient(to right,#ffffff05,#ffffff0a, #ffffff6e,#fffffff9);
     z-index: 2;
     margin: 0 0 0 calc((100vw - 5rem)/3);
     align-self: end;

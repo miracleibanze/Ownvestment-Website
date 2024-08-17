@@ -7,35 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="notice">&#9888;&nbsp;In smaller screen swipe for scrolling down or up.</div>
     <div class="container">
-        <header>
+        <header id="Home">
             <div class="header-main">
                 <div class="header-menu">
-                    <h2>OWNVESTMENT</h2>
-                    <ul>
-                        <li><font color="#fff">Home</font></li>
-                        <li>How it Works</li>
-                        <li>Better Property Investing</li>
-                        <li>Learn</li>
-                        <li>FAQs</li>
-                    </ul>
+                    <div class="logo">MyLogo</div>
+                    <nav>
+                        <ul class="nav-links">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#How">How it works</a></li>
+                            <li><a href="#Better">Better property investing</a></li>
+                            <li><a href="#Learn">Learn</a></li>
+                            <li><a href="#FAQs">FAQs</a></li>
+                            <input type="submit" value="close" class="close">
+                        </ul>
+                    </nav>
+                    <div class="menu-icon" id="menu-icon">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
                     <button>Free Strategy Session</button>
                 </div>
                 <div>
                     <div class="Heading-word">   
                         <div class="header-title">
-                            <div><span>#Number 1<br/> Real Estate</span>&nbsp;SMART </div>
-                            <div>PROPERTY<br/>&nbsp;&nbsp;&nbsp;&nbsp;INVESTMENTS</div>
+                            <div class="title-div"><div class="span">#Number 1<br/>Real Estate</div>
+                            <div>
+                                <div class="title"><p>&nbsp;SMART<br/>PROPERTY<br/>&nbsp;INVESTMENTS</p></div>
+                            </div></div>
+                            <div class="header-social-media-icons">
+                                <div><img src="./src/instagram-brands-solid.svg" alt=""></div>
+                                <div><img src="./src/facebook-f-brands-solid.svg" alt=""></div>
+                                <div><img src="./src/twitter-brands-solid.svg" alt=""></div>
+                                <div><img src="./src/youtube-brands-solid.svg" alt=""></div>
+                            </div>
                         </div>
-                        <div class="header-social-media-icons">
-                            <div><img src="./src/instagram-brands-solid.svg" alt=""></div>
-                            <div><img src="./src/facebook-f-brands-solid.svg" alt=""></div>
-                            <div><img src="./src/twitter-brands-solid.svg" alt=""></div>
-                            <div><img src="./src/youtube-brands-solid.svg" alt=""></div>
-                        </div>
+                        <p class="welcome">At Ownvestment, We are your trusted partners <br/>On path to property success.</p>
                     </div>
-                    <p>At Ownvestment, We are your trusted partners <br/>On path to property success.</p>
-                </div>
                 <div class="header-bottom-part">
                     <div>
                         <div>&nbsp;</div>
@@ -52,7 +62,7 @@
             </div>
         </header>
 
-        <section class="WhyUs">
+        <section class="WhyUs" id="How">
             <div>Why Us </div>
             <div>
                 <p>We are your trusted partner in the world of property investment. With years of expertise and a deep understanding of a real estate market, we help you make informed investment decissions that align with your goals.</p>
@@ -78,7 +88,7 @@
             <div class="affordable-img"></div>
         </section>
 
-        <section class="latest">
+        <section class="latest" id="Better">
             <h1>Latest Property</h1>
             <div class="latestImgCont">
                 <div class="latestImg-nav">
@@ -180,7 +190,7 @@
             </div>
         </section>
 
-        <section class="steps">
+        <section class="steps" id="Learn">
             <h1>5 steps to the first investment</h1>
             <div class="stepsCardCont">
                 <div class="stepsCard-nav">
@@ -269,7 +279,7 @@
             </div>
         </section>
 
-        <section class="FAQs">
+        <section class="FAQs" id="FAQs">
             <div>
                 <h1>Top questions. Answered.</h1>
             </div>
@@ -332,7 +342,7 @@
                 <div><h1>OWNVESTMENT</h1></div>
             </div>
 
-            <div>
+            <div class="unlock">
                 <span>
                     <h2>Unlock Your Dream Home Today!</h2>
                     <p>Join us on the jourmey to home ownership and discover the perfect place to call your own.</p>

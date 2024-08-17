@@ -1,3 +1,20 @@
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.querySelector('.nav-links');
+const closeLinks = document.getElementsByClassName('.close');
+
+
+menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+    menuIcon.classList.toggle('change');
+});
+
+closeLinks.addEventListener('click', () => {
+    navLinks.classList.remove('show');
+    menuIcon.classList.remove('change');
+});
+
+
+
 document.querySelector('.latestImg-previous').addEventListener('click', () => {
     var moveBack = document.querySelector('.latestImgLine');
     moveBack.classList.add('moveBackTrigger');
